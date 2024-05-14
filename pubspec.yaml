@@ -1,0 +1,83 @@
+name: ptc_test
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  build_runner:
+  get_it:
+  json_serializable:
+  json_annotation:
+  retrofit:
+  retrofit_generator:
+  cupertino_icons: ^1.0.2
+  awesome_dialog:
+  flutter_rating_bar: ^4.0.1
+  shared_preferences: ^2.0.17
+  dio:
+  bloc:
+  flutter_bloc:
+  smooth_page_indicator: ^1.0.0+2
+  awesome_icons:
+  image_picker:
+  progress_loading_button:
+  svg_flutter:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/image.svg
+     - assets/on_boarding.png
+     - assets/logo_icon.svg
+     - assets/product1.png
+     - assets/product2.png
+     - assets/product3.png
+     - assets/product4.png
+     - assets/product5.png
+     - assets/product6.png
+     - assets/juice1.png
+     - assets/juice2.png
+     - assets/juice3.png
+     - assets/juice4.png
+     - assets/juice5.png
+     - assets/juice6.png
+     - assets/veg1.png
+     - assets/veg2.png
+     - assets/veg3.png
+     - assets/veg4.png
+     - assets/check_sign.png
+     - assets/group1.png
+     - assets/favorite.svg
+     - assets/store.svg
+     - assets/cart.svg
+     - assets/person.svg
+     - assets/explore.svg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
